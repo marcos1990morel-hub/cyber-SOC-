@@ -1,0 +1,46 @@
+Dame un segundo... 
+En la capa de aplicación del modelo TCP/IP:
+
+están protocolos como HTTP, HTTPS, FTP, SMTP, POP3, IMAP, DNS, DHCP, SNMP, NTP, LDAP, SMB/CIFS,
+
+RDP y SSH. En resumen, definen cómo las aplicaciones intercambian datos: por ejemplo,
+
+un navegador usando HTTP o HTTPS para pedir y mostrar páginas web. Cada protocolo define
+
+formatos de mensajes y reglas de comunicación específicas. Si querés te puedo explicar 
+
+alguno en detalle.
+
+lo explico técnicamente, como en redes y ciberseguridad. 
+
+La capa de aplicación es la más cercana al usuario y provee
+
+servicios que usan directamente las apps. Por ejemplo, HTTP usa el puerto 80 y
+
+sirve para pedir recursos web. Es rápido, pero no cifra datos. HTTPS es HTTP sobre TLS, puerto 443,
+
+y agrega cifrado y autenticación. FTP transfiere archivos (puertos 20 y 21), pero no cifra,
+
+por eso hoy se desaconseja. Su versión segura es SFTP, que funciona sobre SSH, puerto22.
+
+SSH permite administración remota cifrada. Con ssh usuario@IP obtenés una terminal remota.
+
+Telnet hace algo parecido, pero sin cifrado, así que es inseguro hoy en día. Correo electrónico:
+
+SMTP se usa para enviar. POP3 descarga mensajes al dispositivo, mientras que IMAP sincroniza carpetas entre dispositivos con el servidor.
+
+DNS traduce nombres de dominio a IPs. Sin DNS, tendrías que memorizar direcciones numéricas. DHCP asigna automáticamente IP, máscara, gateway y
+
+DNS a un equipo. SNMP permite monitorear routers, switches, servidores, etcétera, muy usado en centros de datos.
+
+NTP sincroniza la hora entre equipos, clave para logs y certificados. SMB comparte archivos e impresoras, típico en redes Windows.
+
+RDP permite controlar remotamente un escritorio Windows. En la mayoría de estos protocolos se usa TCP por confiabilidad, excepto en 
+
+casos como DNS, DHCP, SNMP y NTP que suelen usar UDP para mayor rapidez. En ciberseguridad, conviene dominar sobre todo HTTP/HTTPS,
+
+DNS, DHCP, SSH, SMB, LDAP, SMTP, IMAP, POP3, FTP/SFTP, SNMP y NTP, porque aparecen mucho en auditorías,
+
+análisis de tráfico y configuración de redes. Entender puertos, cifrado y comportamiento de cada uno es
+
+base para diagnosticar y proteger sistemas.
