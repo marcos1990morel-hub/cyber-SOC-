@@ -1,0 +1,51 @@
+modelo TCP/IP :
+
+ los protocolos basicos (HTTP,HTTPS,TCP,UDP)
+ 
+ como funcionan las IPs y el SUBNETING.
+
+ 
+ objetivo : ENTENDER EL FLUJO como funcionan
+
+ el trafico de un punto a otro i las respuestas.
+
+ segundo paso : ENTENDER LINUX. ENTENDER WINDOWS.
+
+  paso tres la programacion : 
+  
+  saber scripting basico 
+
+  poder automatizar tareas 
+
+  entender como funciona una aplicacion 
+ 
+  leer codigo y saber que hace 
+
+  lenguaje por exelencia : PYTHON-...
+
+  terminal BASH de linux para automatizar tareas.
+
+  javascript basico entender como buscar vulnerabilidades
+
+  
+	HERRAMIENTAS : 
+
+
+	NMAP (escaneo de redes , descubrir puertos y servicios 
+
+		versiones)
+
+	BURP SUITE (seguridad de aplicaciones web, sql inyeccion y
+		
+		interpretar peticiones, XSS etc)
+
+		METASPLOID ( framework de pentesting,entender como se explotan vulnerabilidades)
+
+		WIRESHARK (capturar trafico,analisis de red en tiempo real )
+
+		
+	 	
+  
+  
+
+ 
